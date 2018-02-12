@@ -1,0 +1,37 @@
+<form data-toggle="validator" role="form" action="">
+<div class="one-fourth first" id="StdioArea">
+   <select name="Studio" id="Studio" class="mycustomselect">
+     <option label="stdio" value="16">Studio</option>
+     <option label="1bed" value="17">1 Bedroom</option>
+     <option label="2bed" value="18">2 Bedrooms</option>
+     <option label="3bed" value="19">3 Bedrooms</option>
+     <option label="morethanfour" value="4">4+ Bedrooms</option>
+   </select>
+</div>
+
+<div class="one-fourth" id="BathroomsArea">
+   <select name="Bathrooms" id="Bathrooms"  class="mycustomselect bathroomsarea">
+     <option label="1bath" value="1">1 Bathroom</option>
+     <option label="2bath" value="2">2 Bathrooms</option>
+     <option label="3bath" value="3">3 Bathrooms</option>
+     <option label="4bath" value="4">4 Bathrooms</option>
+     <option label="5bath" value="5">5 Bathrooms</option>
+   </select>
+	<div class="form-group">
+<div class="input-icon input-icon-right" id="sqfcontainer"  style="display:none;"><i>~Sq. Ft.</i><input type="number" id="squirefeet" name="squirefeet" pattern="[0-9]*" inputmode="numeric" min="1500" max="6000" step="10"  placeholder="" value="" >
+	</div>
+		<div class="help-block">Minimum of 1500 and maximum 6000  Sq.ft.</div>
+	</div>
+</div>
+
+<div class="one-fourth" id="PackageArea">
+   <select name="package" id="package"  class="mycustomselect">
+     <option label="standard" value="6">One-Time</option>
+     <option label="deep" value="13">Monthly</option>
+     <option label="movein" value="19">Bi-Weekly</option>
+   </select>
+</div>
+<div class="one-fourth" id="booknowbutton">
+   <button type="submit" class="button accent mycustombtn">Book from <span class="dollar">$</span><span id="EstimateAmount">69</span></button>
+</div>
+</form>
